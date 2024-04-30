@@ -1,0 +1,21 @@
+item_max: 20
+media_path: ./media
+url_base: http://localhost/media
+email: a@example.com(shooskay)
+title: myfeed
+link: http://localhost/
+description: shooskay's audio
+category: Music
+language: ja
+copyright: shooskay
+generator: dir2feed
+ttl: 60
+itunes_author: shooskay
+itunes_subtitle: shooskay's audio
+itunes_category: Music
+itunes_subcategory: Music Commentary
+itunes_summary: radio
+itunes_keywords: shooskay
+itunes_explicit: clean
+image_url: http://localhost/dir2feed_logo.jpg
+image_title: dir2feed_logo

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  dir2feed:
+    build: .
+    tty: true
+    ports:
+      - "80:80"
+    volumes:
+      - config:/var/www/html/conf.d
+      - media:/var/www/html/media
+
+volumes:
+  config:
+    driver_opts:
+      type: none
+      device: $PWD/conf.d
+      o: bind
+  media:
+    driver_opts:
+      type: none
+      device: $PWD/media
+      o: bind

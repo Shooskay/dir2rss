@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/yaml": "^6.2",
+        "james-heinrich/getid3": "^1.9"
+    }
+}
